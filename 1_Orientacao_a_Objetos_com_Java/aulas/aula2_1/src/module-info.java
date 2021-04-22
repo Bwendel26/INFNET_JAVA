@@ -1,0 +1,2 @@
+module FolhaPagamento_B {
+}
