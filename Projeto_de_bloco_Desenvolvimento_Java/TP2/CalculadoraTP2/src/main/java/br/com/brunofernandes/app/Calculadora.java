@@ -9,6 +9,8 @@ package br.com.brunofernandes.app;
  *
  * @author Bwendel
  */
+import br.com.brunofernandes.calculadoratp2.Operation;
+        
 public class Calculadora extends javax.swing.JFrame {
 
     /**
@@ -17,7 +19,6 @@ public class Calculadora extends javax.swing.JFrame {
     public Calculadora() {
         initComponents();
     }
-    
     Double val1, val2, result;
     String operation;
     /**
@@ -306,7 +307,10 @@ public class Calculadora extends javax.swing.JFrame {
     }//GEN-LAST:event_btnNumber1ActionPerformed
 
     private void btnDivisionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDivisionActionPerformed
+        val1 = Double.parseDouble(panel.getText());
         panel.setText(panel.getText() + "/");
+        panel.setText("");
+        operation = "division";
     }//GEN-LAST:event_btnDivisionActionPerformed
 
     private void panelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_panelActionPerformed
@@ -314,7 +318,11 @@ public class Calculadora extends javax.swing.JFrame {
     }//GEN-LAST:event_panelActionPerformed
 
     private void btnEraseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEraseActionPerformed
-        // TODO add your handling code here:
+        if(val1 != 0.0) {
+            val2 = 0.0;
+        } else {
+            val1 = 0.0;
+        } // fix here
     }//GEN-LAST:event_btnEraseActionPerformed
 
     private void btnNumber2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNumber2ActionPerformed
@@ -362,11 +370,17 @@ public class Calculadora extends javax.swing.JFrame {
     }//GEN-LAST:event_btnSumActionPerformed
 
     private void btnSubtractionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSubtractionActionPerformed
+        val1 = Double.parseDouble(panel.getText());
         panel.setText(panel.getText() + "-");
+        panel.setText("");
+        operation = "subtract";
     }//GEN-LAST:event_btnSubtractionActionPerformed
 
     private void btnMultiplyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMultiplyActionPerformed
+        val1 = Double.parseDouble(panel.getText());
         panel.setText(panel.getText() + "x");
+        panel.setText("");
+        operation = "multiply";
     }//GEN-LAST:event_btnMultiplyActionPerformed
 
     private void btnEqualsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEqualsActionPerformed
@@ -374,9 +388,16 @@ public class Calculadora extends javax.swing.JFrame {
         
         switch(operation) {
             case "sum":
-                result = val1 + val2;
+                result = Operation.sum(val1, val2);
                 break;
             case "subtract":
+                result = Operation.subtract(val1, val2);
+                break;
+            case "multiply":
+                result = Operation.multiply(val1, val2);
+                break;
+            case "division":
+                result = Operation.division(val1, val2);
                 break;
         }
         
@@ -385,10 +406,13 @@ public class Calculadora extends javax.swing.JFrame {
 
     private void btndotActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btndotActionPerformed
         panel.setText(panel.getText() + ",");
+        val1 += 0.0; //fix here
     }//GEN-LAST:event_btndotActionPerformed
 
     private void btnCleanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCleanActionPerformed
         panel.setText("");
+        val1 = 0.0;
+        val2 = 0.0;
     }//GEN-LAST:event_btnCleanActionPerformed
 
     /**
