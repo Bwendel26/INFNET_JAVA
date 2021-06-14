@@ -1,13 +1,23 @@
 package entities;
 
+import entities.auxiliar.Constante;
+/**
+ * @author Bwendel
+ *
+ */
+
 public class Funcionario {
 
 	private String nome;
 	private int idade;
 	private float salario;
 	private float bonus;
-	private float descontos;
-	
+	private float desconto;
+
+	public Funcionario() {
+		nome = "Fantasma";
+	}
+
 	public Funcionario(String nome) {
 		this.nome = nome;
 	}  
@@ -18,14 +28,23 @@ public class Funcionario {
 		this.salario = salario;
 	}
 	
-	public Funcionario(String nome, int idade, float salario, float bonus, float descontos) {
+	public Funcionario(String nome, int idade, float salario, float bonus, float desconto) {
 		this(nome, idade, salario);
 		this.bonus = bonus;
-		this.descontos = descontos;
+		this.desconto = desconto;
 	}
-	
+
+	private float calcularSalario() {
+		return salario + bonus - desconto;
+	}
+
+	private String getSituacao(float salarioLiquido) {
+		return salarioLiquido > Constante.SALARIO ? "rico" : "pobre";
+	}
+
 	public void exibir() {
-		System.out.println(toString());
+		float resultadoSalario = calcularSalario();
+		System.out.println("Funcionario: " + this + " = R$: " + resultadoSalario + "[" + getSituacao(resultadoSalario) + "]");
 	}
 	
 	public String getNome() {
@@ -52,11 +71,11 @@ public class Funcionario {
 	public void setBonus(float bonus) {
 		this.bonus = bonus;
 	}
-	public float getDescontos() {
-		return descontos;
+	public float getDesconto() {
+		return desconto;
 	}
-	public void setDescontos(float descontos) {
-		this.descontos = descontos;
+	public void setDesconto(float desconto) {
+		this.desconto = desconto;
 	}
 
 	@Override
