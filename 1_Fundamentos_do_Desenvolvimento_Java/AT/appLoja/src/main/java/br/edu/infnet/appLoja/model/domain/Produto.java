@@ -14,6 +14,10 @@ public abstract class Produto {
         this.valor = valor;
     }
 
+    public void imprimir() {
+        System.out.println(this);
+    }
+
     @Override
     public String toString() {
 

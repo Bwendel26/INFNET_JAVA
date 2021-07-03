@@ -2,6 +2,8 @@ package br.edu.infnet.appLoja.model.domain;
 
 public class Acessorio extends Produto{
 
+
+
     public Acessorio(String marca, String categoria, String descricao, float valor) {
         super(marca, categoria, descricao, valor);
     }
