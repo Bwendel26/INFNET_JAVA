@@ -6,10 +6,10 @@ import br.edu.infnet.appLoja.model.domain.PecaHardware;
 public class ProdutoTeste {
     public static void main(String[] args) {
 
-        Computador c1 = new Computador("Dell", "Notebook","Dell XPS i7", 10000);
+        Computador c1 = new Computador("XPS15", "Dell", "Notebook","Dell XPS i7", 10000, 1);
         System.out.println("PC: " + c1);
 
-        PecaHardware h1 = new PecaHardware("XPG", "memorias","RAM 16Gb", 450);
+        PecaHardware h1 = new PecaHardware( "XPGPredator","XPG", "memorias","RAM 16Gb", 450, 2);
         System.out.println("Hardware: " + h1);
     }
 

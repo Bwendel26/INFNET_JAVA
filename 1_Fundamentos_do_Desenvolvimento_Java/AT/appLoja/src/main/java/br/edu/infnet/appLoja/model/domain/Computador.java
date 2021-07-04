@@ -1,14 +1,16 @@
 package br.edu.infnet.appLoja.model.domain;
 
+import br.edu.infnet.appLoja.model.exceptions.TipoNullException;
+
 public class Computador extends Produto {
 
     private String tipo;
 
-    public Computador(String marca, String categoria, String descricao, float valor) {
-        super(marca, categoria, descricao, valor);
+    public Computador(String nome, String marca, String categoria, String descricao, float valor, int qtd) {
+        super(nome, marca, categoria, descricao, valor, qtd);
     }
-    public Computador(String marca, String categoria, String tipo, String descricao, float valor) {
-        super(marca, categoria, descricao, valor);
+    public Computador(String nome, String marca, String categoria, String tipo, String descricao, float valor, int qtd) {
+        super(nome, marca, categoria, descricao, valor, qtd);
         this.tipo = tipo;
     }
 
@@ -18,14 +20,17 @@ public class Computador extends Produto {
         sb.append(super.toString());
         sb.append(";");
         sb.append(this.getTipo());
-        sb.append(";");
-        sb.append(this.calcularValorBruto());
+
         return sb.toString();
     }
 
     @Override
-    public float calcularValorBruto() {
-        return 1500;
+    public float calcularValorBruto() throws TipoNullException {
+        if(this.tipo == null) {
+            throw new TipoNullException("O tipo do computador não está preechido!");
+        }
+
+        return getValor() * getQuantidate();
     }
 
     public String getTipo() {

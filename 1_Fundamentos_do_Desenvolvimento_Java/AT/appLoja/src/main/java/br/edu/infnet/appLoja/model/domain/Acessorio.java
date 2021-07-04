@@ -2,10 +2,8 @@ package br.edu.infnet.appLoja.model.domain;
 
 public class Acessorio extends Produto{
 
-
-
-    public Acessorio(String marca, String categoria, String descricao, float valor) {
-        super(marca, categoria, descricao, valor);
+    public Acessorio(String nome, String marca, String categoria, String descricao, float valor, int qtd) {
+        super(nome, marca, categoria, descricao, valor, qtd);
     }
 
     @Override
@@ -13,15 +11,13 @@ public class Acessorio extends Produto{
 
         StringBuilder sb = new StringBuilder();
         sb.append(super.toString());
-        sb.append(";");
-        sb.append(this.calcularValorBruto());
 
         return sb.toString();
     }
 
     @Override
     public float calcularValorBruto() {
-        return 0;
+        return getValor() * getQuantidate();
     }
 
 }

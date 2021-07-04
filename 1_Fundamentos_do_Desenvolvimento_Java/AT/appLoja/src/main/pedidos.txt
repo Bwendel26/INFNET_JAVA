@@ -1,2 +1,4 @@
-C;
-H;
+0;Pedido Bruno;Bruno;bwendel26999@gmail.com
+C;XPS15;Dell;Notebooks;Profissional;Dell XPS i7 11a gen 16gb RAM SSD 512Gb;11000;1;
+H;XPGPredator;XPG;Memorias;Memoria RAM 16Gb Ddr4 3200Mhz;420;2
+A;Anker soundcore pro 2;Anker;Som;Caixa de som Anker soundcore pro 2;650;1

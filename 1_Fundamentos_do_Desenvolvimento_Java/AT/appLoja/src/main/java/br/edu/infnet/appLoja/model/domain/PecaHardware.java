@@ -3,8 +3,8 @@ package br.edu.infnet.appLoja.model.domain;
 public class PecaHardware extends Produto {
 
 
-    public PecaHardware(String marca, String categoria, String descricao, float valor) {
-        super(marca, categoria, descricao, valor);
+    public PecaHardware(String nome, String marca, String categoria, String descricao, float valor, int qtd) {
+        super(nome, marca, categoria, descricao, valor, qtd);
     }
 
     @Override
@@ -20,6 +20,6 @@ public class PecaHardware extends Produto {
 
     @Override
     public float calcularValorBruto() {
-        return 200;
+        return getValor() * getQuantidate();
     }
 }
