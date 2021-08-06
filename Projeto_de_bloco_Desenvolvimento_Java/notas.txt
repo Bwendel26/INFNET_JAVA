@@ -1,0 +1,19 @@
+Ventura HR:
+
+- Todos os usuários pesquisam vagas ** - filtros de pesquisa
+
+- Candidato - lista de vagas respondidas - consultar detalhes da vaga
+
+- publicacao da vaga - dados da vaga - envia email na data limite - renovacao - finalizacao - validade em 1 mes
+
+
+- Construção dos wireframes (telas) - focar nas telas base que o professor desenvolveu
+
+
+	- 10 ultimas vagas publicadas - fazer login - criar conta
+	
+	- tela da empresa / tela do candidato / tela adm -> Email é a chave (n pode usar o msm email para criar duas contas)  !Autenticacao eh requisito!
+	
+	
+	
+	

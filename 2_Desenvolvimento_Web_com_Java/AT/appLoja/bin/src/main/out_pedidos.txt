@@ -1,0 +1,5 @@
+Pedido Bruno;2021-07-04T18:37:58.236856;Bruno;bwendel26999@gmail.com
+Total: 0.0XPS15;Dell;Notebooks;Dell XPS i7 11a gen 16gb RAM SSD 512Gb;11000.0;1
+Total: 11000.0XPGPredator;XPG;Memorias;Memoria RAM 16Gb Ddr4 3200Mhz;840.0;2
+Total: 11420.0Anker soundcore pro 2;Anker;Som;Caixa de som Anker soundcore pro 2;650.0;1
+Total: 12070.0
