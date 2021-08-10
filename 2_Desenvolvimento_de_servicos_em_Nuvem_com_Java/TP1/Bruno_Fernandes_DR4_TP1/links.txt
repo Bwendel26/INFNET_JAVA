@@ -1,0 +1,5 @@
+O zip ficou maior que o tamanho que a plataforma do moodle suporta
+
+Segue o link do repositório.
+
+https://github.com/Bwendel26/INFNET_JAVA/tree/main/2_Desenvolvimento_de_servicos_em_Nuvem_com_Java/TP1

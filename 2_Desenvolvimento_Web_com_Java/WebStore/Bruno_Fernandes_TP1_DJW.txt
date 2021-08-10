@@ -1,0 +1,3 @@
+O arquivo comprimido estava maior que o limite do moodle.
+
+Link:https://github.com/Bwendel26/INFNET_JAVA/tree/main/2_Desenvolvimento_Web_com_Java/WebStore
