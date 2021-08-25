@@ -4,7 +4,9 @@ public class Solicitante {
 
     private String nome;
     private String email;
-
+    
+    public Solicitante() {}
+    
     public Solicitante(String nome, String email) {
         this.nome = nome;
         this.email = email;
