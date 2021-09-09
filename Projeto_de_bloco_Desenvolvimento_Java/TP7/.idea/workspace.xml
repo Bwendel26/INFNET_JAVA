@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d11ed5c-e3ba-4ec1-bd8f-a0c7951f7db5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../2_Desenvolvimento_de_servicos_em_Nuvem_com_Java/TP3/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2_Desenvolvimento_de_servicos_em_Nuvem_com_Java/TP3/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2_Desenvolvimento_de_servicos_em_Nuvem_com_Java/TP3/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2_Desenvolvimento_de_servicos_em_Nuvem_com_Java/TP3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2_Desenvolvimento_de_servicos_em_Nuvem_com_Java/TP3/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2_Desenvolvimento_de_servicos_em_Nuvem_com_Java/TP3/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2_Desenvolvimento_Web_com_Java/AT/appLoja/src/main/java/br/edu/infnet/appLoja/model/tests/AppTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2_Desenvolvimento_Web_com_Java/AT/appLoja/src/main/java/br/edu/infnet/appLoja/model/tests/AppTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2_Desenvolvimento_Web_com_Java/AT/appLoja/src/main/webapp/WEB-INF/jsp/solicitante/cadastro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../2_Desenvolvimento_Web_com_Java/AT/appLoja/src/main/webapp/WEB-INF/jsp/solicitante/cadastro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_Desenvolvimento_Web_com_Java/WebStore/src/main/webapp/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../2_Desenvolvimento_Web_com_Java/WebStore/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_Desenvolvimento_Web_com_Java/WebStore/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2_Desenvolvimento_Web_com_Java/WebStore/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_Desenvolvimento_Web_com_Java/WebStore/src/main/webapp/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2_Desenvolvimento_Web_com_Java/WebStore/src/main/webapp/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VenturaHR_web/src/main/webapp/403.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/VenturaHR_web/src/main/webapp/403.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,7 @@
       <updated>1630701583674</updated>
       <workItem from="1630701585885" duration="404000" />
       <workItem from="1630706411900" duration="799000" />
+      <workItem from="1631122618842" duration="59000" />
     </task>
     <servers />
   </component>
