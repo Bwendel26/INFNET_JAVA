@@ -1,0 +1,5 @@
+O ZIP FICOU MAIOR QUE 20Mb, NÃO SENDO SUPORTADO PELO MOODLE.
+
+Link do repositório: https://github.com/Bwendel26/INFNET_JAVA/tree/main/Projeto_de_bloco_Desenvolvimento_Java/TP7
+
+Link do TP7 no Drive: https://drive.google.com/file/d/1D3B_vLYKRRzK8TWARzBVOHvp-f709IJw/view?usp=sharing
