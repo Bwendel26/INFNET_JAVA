@@ -1,6 +1,6 @@
-package br.edu.infnet.appLoja.model.tests;
+package main.java.br.edu.infnet.appLoja.model.tests;
 
-import br.edu.infnet.appLoja.model.domain.Solicitante;
+import main.java.br.edu.infnet.appLoja.model.domain.Solicitante;
 
 public class SolicitanteTeste {
 

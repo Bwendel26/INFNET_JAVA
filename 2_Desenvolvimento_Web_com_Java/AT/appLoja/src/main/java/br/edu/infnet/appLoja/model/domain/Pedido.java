@@ -1,4 +1,4 @@
-package br.edu.infnet.appLoja.model.domain;
+package main.java.br.edu.infnet.appLoja.model.domain;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

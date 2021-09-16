@@ -1,11 +1,10 @@
-package br.edu.infnet.appLoja.model.tests;
+package main.java.br.edu.infnet.appLoja.model.tests;
 
-import br.edu.infnet.appLoja.model.domain.Solicitante;
-import br.edu.infnet.appLoja.model.domain.Acessorio;
-import br.edu.infnet.appLoja.model.domain.Computador;
-import br.edu.infnet.appLoja.model.domain.PecaHardware;
-import br.edu.infnet.appLoja.model.domain.Pedido;
-import br.edu.infnet.appLoja.model.domain.Produto;
+import main.java.br.edu.infnet.appLoja.model.domain.Solicitante;
+import main.java.br.edu.infnet.appLoja.model.domain.Acessorio;
+import main.java.br.edu.infnet.appLoja.model.domain.Computador;
+import main.java.br.edu.infnet.appLoja.model.domain.PecaHardware;
+import main.java.br.edu.infnet.appLoja.model.domain.Pedido;
 
 import br.edu.infnet.appLoja.model.exceptions.TipoNullException;
 

@@ -1,7 +1,7 @@
-package br.edu.infnet.appLoja.model.tests;
+package main.java.br.edu.infnet.appLoja.model.tests;
 
-import br.edu.infnet.appLoja.model.domain.Computador;
-import br.edu.infnet.appLoja.model.domain.PecaHardware;
+import main.java.br.edu.infnet.appLoja.model.domain.Computador;
+import main.java.br.edu.infnet.appLoja.model.domain.PecaHardware;
 
 public class ProdutoTeste {
     public static void main(String[] args) {

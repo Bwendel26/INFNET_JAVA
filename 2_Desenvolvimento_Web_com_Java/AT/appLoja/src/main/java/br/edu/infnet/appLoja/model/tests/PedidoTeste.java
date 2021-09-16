@@ -1,7 +1,7 @@
-package br.edu.infnet.appLoja.model.tests;
+package main.java.br.edu.infnet.appLoja.model.tests;
 
-import br.edu.infnet.appLoja.model.domain.Pedido;
-import br.edu.infnet.appLoja.model.domain.Solicitante;
+import main.java.br.edu.infnet.appLoja.model.domain.Pedido;
+import main.java.br.edu.infnet.appLoja.model.domain.Solicitante;
 
 public class PedidoTeste {
     public static void main(String[] args) {

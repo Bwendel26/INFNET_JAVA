@@ -1,12 +1,13 @@
-package br.edu.infnet.appLoja.controller;
+package main.java.br.edu.infnet.appLoja.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import br.edu.infnet.appLoja.model.domain.Solicitante;
+import main.java.br.edu.infnet.appLoja.model.domain.Solicitante;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class SolicitanteController {
 	
 	@GetMapping(value="/solicitante")
