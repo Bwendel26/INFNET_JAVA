@@ -20,8 +20,6 @@
 				<nav>
 					<c:import url="menu.jsp"/>
 				</nav>
-				<a href="/login.jsp" id="linkLogin">Login</a>
-				<a href="/solicitante/cadastro.jsp" id="linkRegistro">Registro</a>
 			</div>
 			<div id=github>
 				<p>

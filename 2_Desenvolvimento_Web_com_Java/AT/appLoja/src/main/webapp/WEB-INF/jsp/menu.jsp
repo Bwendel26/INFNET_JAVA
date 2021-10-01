@@ -6,7 +6,7 @@
             <a class="navbar-brand" href="#">AppLoja</a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="/">Home</a></li>
             <c:if test="${not empty user}">
                 <li><a href="/solicitante/lista">Solicitante</a></li>
                 <li><a href="/usuario/lista">Usuário</a></li>
@@ -19,8 +19,8 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <c:if test="${empty user}">
-                <li><a href="/usuario"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href="/usuario"><span class="glyphicon glyphicon-user"></span>cadastro</a></li>
+                <li><a href="/login"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
             </c:if>
             <c:if test="${not empty user}">
                 <li><a href="/logout"><span class="glyphicon glyphicon-log-out"></span> Logout, ${user.nome}!!!</a></li>

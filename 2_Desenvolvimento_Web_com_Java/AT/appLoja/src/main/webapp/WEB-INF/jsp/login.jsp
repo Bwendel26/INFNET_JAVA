@@ -11,17 +11,15 @@
 		<link href="./style/cadastro.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
+		<header id="header">
+			<c:if test="${msg != null}">
+				<div style="color: red;"><strong>Error: ${msg}</strong></div>
+			</c:if>
+		</header>
 		<main id="content">
-			<c:import url="/WEB-INF/jsp/menu.jsp"/>
+			<c:import url="./menu.jsp"/>
 
 			<div class="container">
-
-				<c:if test="${not empty mensagem}">
-					<div class="alert alert-danger">
-						<strong>Problema!</strong> ${mensagem}
-					</div>
-				</c:if>
-
 				<h2>Autenticação</h2>
 				<form action="/login" method="post">
 
